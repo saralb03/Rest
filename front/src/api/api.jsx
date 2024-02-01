@@ -1,5 +1,5 @@
 import axios from "axios";
-const BACKEND_URL = "http://localhost:3001";
+const BACKEND_URL = "https://restaurant-ws1c.onrender.com";
 const headers = {
   "x-api-key": localStorage.getItem("token"),
 };
