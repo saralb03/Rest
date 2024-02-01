@@ -45,7 +45,7 @@ const RestaurantList = () => {
           name="q"
           value={searchQuery}
           onChange={(e) => setSearchQuery(e.target.value)}
-          className="w-full border h-12 shadow p-4 rounded-full"
+          className="w-full border h-12 shadow-2xl p-4 rounded-full"
           placeholder="Search restaurants..."
         />
       </div>
